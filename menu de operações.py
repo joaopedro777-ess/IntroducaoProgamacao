@@ -33,5 +33,20 @@ while opcaoMaiusc != "sair":
             print("O número", n1, "é par")
         else:
             print("O número", n1, "é impar")
+    if opcao=="6":
+        n1=int(input("Digite o número :"))
+        c=0
+        for i in range(1,n1+1):
+            if n1%i==0:
+                c+=1
+        if c<=2:
+            print("O número é primo")
+        else:
+            print("O número não é primo")
+    if opcao=="7":
+        n1=int(input("Digite um número para saber seu fatorial:"))
+        
+        
 input("Pressione ENTER para voltar ao MENU!")
 os.system ("cls")
+ 
