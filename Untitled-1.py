@@ -1,3 +1,5 @@
-n=int(input("Digite um número:"))
-if n>10:
-    print("o número é maior que 10!")
+for i in range (21):
+    if i%2==0:
+        print(i)
+
+    
